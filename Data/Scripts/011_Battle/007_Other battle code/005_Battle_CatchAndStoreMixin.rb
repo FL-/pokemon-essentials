@@ -6,6 +6,7 @@ module Battle::CatchAndStoreMixin
   # Store caught Pokémon.
   #-----------------------------------------------------------------------------
 
+  
   def pbStorePokemon(pkmn)
     # Nickname the Pokémon (unless it's a Shadow Pokémon)
     if !pkmn.shadowPokemon?
