@@ -23,6 +23,7 @@ class Battle::Peer
     return storedBox
   end
 
+  
   def pbGetStorageCreatorName
     return UI::PC.pbGetStorageCreator if $player.seen_storage_creator
     return nil
